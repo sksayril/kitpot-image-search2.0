@@ -1,0 +1,5 @@
+scikit-image==0.22.0
+scikit-learn==1.3.2
+keras
+Flask
+tenserflow
