@@ -32,7 +32,7 @@ def load_model():
             feature_list = pickle.load(emb_file)
             filenames = pickle.load(name_file)
     except FileNotFoundError as e:
-        print(f"Error: {e}. Check if the required files exist in the specified path.")
+        print(f"Error: {e}.")
         sys.exit(1)
     except Exception as e:
         print(f"Error loading pickle files: {e}")
