@@ -8,7 +8,7 @@ import json
 
 app = Flask(__name__)
 CORS(app)
-data = pd.read_csv('kitpot.categoriesNew.csv', encoding='ISO-8859-1')
+data = pickle.load('kitpot.searchingdata14.pkl')
 titles = data['DATA'].tolist()
 
 lowercase_titles = [str(title).lower() if isinstance(title, str) else '' for title in titles]
