@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from model import load_model, find_similar_images,extract_filenames
+from flask_restful import Resource, Api
 import os
 import difflib
 import pandas as pd
