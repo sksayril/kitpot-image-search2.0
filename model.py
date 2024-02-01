@@ -28,7 +28,7 @@ def load_model():
     filenames_path = os.path.join(script_dir, 'res_filenames.pkl')
 
     try:
-        with open(embeddings_path, 'wb') as emb_file, open(filenames_path, 'wb') as name_file:
+        with open(embeddings_path, 'rb') as emb_file, open(filenames_path, 'rb') as name_file:
             feature_list = pickle.load(emb_file)
             filenames = pickle.load(name_file)
     except FileNotFoundError as e:
