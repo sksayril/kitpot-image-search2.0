@@ -30,3 +30,11 @@ Run the Model
 ```bash
 python app.py
 ```
+
+
+how to run the flask app in Contunuos in aws
+
+
+```bash
+nohub python3 app.py
+```
