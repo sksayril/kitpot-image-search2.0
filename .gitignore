@@ -2,3 +2,9 @@
 /uploads
 /__pycache__
 res_vector_embeddings.pkl
+/individual_results
+/resposedata
+/payment_prediction_pipeline.pkl
+/kitpot.searchingdata14.pkl
+test.py
+
